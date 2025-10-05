@@ -4,7 +4,7 @@ description = "Helpers for managing conditions and events in kubernetes."
 version = "0.0.0"
 edition.workspace = true
 authors.workspace = true
-license-file.workspace = true
+license.workspace = true
 repository.workspace = true
 
 [dependencies]
