@@ -1,6 +1,7 @@
 [package]
 name = "kube-observe"
-version = "0.1.0"
+description = "Helpers for managing conditions and events in kubernetes."
+version = "0.0.0"
 edition.workspace = true
 authors.workspace = true
 license-file.workspace = true
