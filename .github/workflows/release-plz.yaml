@@ -34,7 +34,7 @@ jobs:
         uses: release-plz/action@v0.5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
+          CARGO_REGISTRY_TOKEN: ${{ secrets.CRATESIO_TOKEN }}
       - uses: druzsan/setup-matrix@v2
         id: setup-matrix
         with:
