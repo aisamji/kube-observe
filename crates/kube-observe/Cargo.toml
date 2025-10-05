@@ -8,3 +8,11 @@ license.workspace = true
 repository.workspace = true
 
 [dependencies]
+kube.workspace = true
+k8s-openapi.workspace = true
+
+[dev-dependencies]
+k8s-openapi = { workspace = true, features = ["v1_30"] }
+schemars.workspace = true
+serde.workspace = true
+serde_json.workspace = true
